@@ -1,13 +1,58 @@
-.container{
-    margin-top: 100px;
-    margin-left: 25%;
-    text-align: center;
-    height: 30em;
-    width: 50%;
-    background-color: cadetblue;
+*{
+    font-family: Arial, sans-serif;
+
 }
 
-button{
-    margin: 10px;
+
+.container {
+    background-color: rgb(218, 228, 228);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    margin: auto; /* To center the container horizontally */
+    margin-top: 20vh; /* To center the container vertically */
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #4caf50;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button.start {
+    background-color: #4caf50;
+    border: none;
+    color: #fff;
+    margin-right: 10px;
+}
+
+button.stop {
+    background-color: #f44336;
+    border: none;
+    color: #fff;
+}
+
+button:hover {
+    opacity:0.8;
+}
+
+p {
+    margin-top: 20px;
+    color: #666;
+    font-size: 18px;
 }
 
